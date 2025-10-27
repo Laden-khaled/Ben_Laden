@@ -1,0 +1,121 @@
+/* تخصيص الألوان */
+:root {
+    --primary-color: #667eea;
+    --secondary-color: #764ba2;
+}
+
+/* تخصيص الخطوط */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* شريط التنقل الثابت */
+.navbar {
+    transition: all 0.3s ease;
+    padding: 1rem 0;
+}
+
+.navbar-scrolled {
+    background-color: #1a1a1a !important;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* قسم البطل */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    margin-top: 76px; /* تعويض ارتفاع النافبار الثابت */
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* الصورة الشخصية */
+.profile-image {
+    max-width: 250px;
+    border: 5px solid white;
+    transition: all 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* بطاقات المهارات */
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+.skill-icon {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-icon {
+    transform: scale(1.1);
+}
+
+/* بطاقات المشاريع */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+}
+
+/* أيقونات وسائل التواصل */
+.social-icon {
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    color: var(--primary-color) !important;
+}
+
+/* شريط التقدم */
+.progress {
+    height: 8px;
+    border-radius: 4px;
+}
+
+.bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+/* تحسينات للجوال */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .profile-image {
+        max-width: 250px;
+    }
+    
+    .display-5 {
+        font-size: 2rem;
+    }
+}
+
+/* تأثيرات التمرير السلس */
+html {
+    scroll-behavior: smooth;
+}
+
+/* تحسينات النموذج */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
