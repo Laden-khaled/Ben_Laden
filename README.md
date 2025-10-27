@@ -3,7 +3,7 @@
  Modern responsive portfolio website built with HTML, CSS, Bootstrap, and JavaScript.
 
  Live Demo
-[https://laden-khaled.github.io/Laden-Portfolio](https://your-username.github.io/Ben-Laden)
+[https://laden-khaled.github.io/Ben-Laden](https://your-username.github.io/Ben-Laden)
 
 Technologies
 - HTML5 • CSS3 • Bootstrap 5 • JavaScript
