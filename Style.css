@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
 }
 
-/* شريط التنقل الثابت */
+
 .navbar {
     transition: all 0.3s ease;
     padding: 1rem 0;
