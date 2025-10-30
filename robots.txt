@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://laden-khaled.github.io/Ben_Laden/sitemap.xml
